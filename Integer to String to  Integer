@@ -1,0 +1,13 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int a = 12342;
+	    String ab = Integer.toString(a);
+	    int len = ab.length();
+	    char abs = ab.charAt(len-1);
+	    String st =abs+"";
+	    int os =Integer.parseInt(st);
+		System.out.println(os +"--"+len+"----"+ab);
+	}
+}
