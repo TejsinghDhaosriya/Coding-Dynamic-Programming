@@ -1,0 +1,21 @@
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int n =9;
+	    String rev = Integer.toBinaryString(n);
+	    //string buffer for using reverse method
+	    StringBuffer t= new StringBuffer(rev);
+	    //using reverse function for reversing the string and tostring for converting stringbuffer to string;
+	    String s = t.reverse().toString();
+	    //getting reverse bit integer format
+	    int fin = Integer.parseInt(s);
+		System.out.println(rev);
+		System.out.println(s);
+		
+		System.out.println(fin);
+		
+// 		System.out.println(Integer.toBinaryString(n|1));
+	}
+}
